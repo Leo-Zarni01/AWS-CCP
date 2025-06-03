@@ -5,3 +5,6 @@ A compilation of slides with contents used from the following [repository](https
 
 ## Design principles AWS in the cloud
 - [Slides](https://leo-zarni01.github.io/AWS-CCP/Design_Principles_Cloud.html)
+
+## Amazon EC2 instance types
+- [Slides](https://leo-zarni01.github.io/AWS-CCP/EC2_instance_types.html)
