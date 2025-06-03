@@ -1,7 +1,7 @@
 # Topics.
-A compilation of slides with contents used from the following [repository](https://github.com/Furkan-Gulsen/aws-certified-cloud-practitioner-certification-my-notes)
+A compilation of slides with contents used from the following [repository](https://github.com/Furkan-Gulsen/aws-certified-cloud-practitioner-certification-my-notes){:target="_blank"}
 ## Benefits of Cloud Computing.
-- [Slides](https://leo-zarni01.github.io/AWS-CCP/benefits_cloud_computing.html)
+- [Slides](https://leo-zarni01.github.io/AWS-CCP/benefits_cloud_computing.html){:target="_blank"}
 
 ## Design principles AWS in the cloud
-- [Slides](https://leo-zarni01.github.io/AWS-CCP/Design_Principles_Cloud.html)
+- [Slides](https://leo-zarni01.github.io/AWS-CCP/Design_Principles_Cloud.html){:target="_blank"}
