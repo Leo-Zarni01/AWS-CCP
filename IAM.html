@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/dracula.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <section>
+            AWS Identity and Access Management
+          </section>
+          <section>
+            gives you the flexibility to configure access based on your company’s specific operational and security needs
+          </section>
+        </section>
+
+        <section>
+          <section>
+            Users
+          </section>
+          <section>
+            Directly associated with an identity in an AWS account
+          </section>
+          <section>
+            can directly access AWS services with its own access keys and passwords
+          </section>
+          <section>
+            Usually created for real people or applications
+          </section>
+          <section>
+            users can be assigned specific permissions or certain policies can be applied to them
+          </section>
+          <section>
+            E.g.: create an AWS user for an application and give that user access only to the S3 bucket
+          </section>
+        </section>
+
+        <section>
+          <section>
+            User groups
+          </section>
+          <section>
+            for organizing and managing multiple AWS users
+          </section>
+          <section>
+            Ideal for grouping users with common permissions
+          </section>
+          <section>
+            A policy or permission assigned to a group is automatically assigned to all users in that group
+          </section>
+          <section>
+            Group them in a single "Developer" group => give same access permissions to all developers
+          </section>
+        </section>
+
+        <section>
+          <section>
+            Roles
+          </section>
+          <section>
+            Not directly associated with ID or password so cannot log in directly
+          </section>
+          <section>
+            used to transfer permissions to another AWS service or user for a certain period of time
+          </section>
+          <section>
+            frequently used to grant applications running on EC2 instances access to AWS services that those instances need
+          </section>
+          <section>
+            When an AWS service needs access to another service, a role is used to provide this access securely
+          </section>
+          <section>
+            EC2 instance writing data to S3 bucket => create a role for this EC2 instance + grant S3 write permissions
+          </section>
+        </section>
+
+      </div>
+    </div>
+    <script src="dist/reveal.js"></script>
+    <script>
+      Reveal.initialize();
+    </script>
+  </body>
+</html>
